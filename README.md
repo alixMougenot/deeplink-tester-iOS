@@ -7,3 +7,6 @@ Simple App to test deeplinks on iOS. it Does two things:
 2. Test which deeplinks are working on the current device. The App will test if there is an App answering to a deeplink as you type in the input box.
 
 This is a swift project, you need Xcode 6 or above to be able to compile it.
+
+![screen one] (/screenshots/one.png "Screen One")
+![screen two] (/screenshots/two.png "Another Screen")
