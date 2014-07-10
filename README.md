@@ -9,5 +9,4 @@ Simple App to test deeplinks on iOS. it Does two things:
 This is a swift project, you need Xcode 6 or above to be able to compile it.
 
 ![screen two] (/screenshots/two.png "Another Screen")
-![screen one] (/screenshots/one.png "Screen One")
 
