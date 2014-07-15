@@ -11,25 +11,7 @@
 		CAE027E3196D9A6E004335A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE027E2196D9A6E004335A7 /* ViewController.swift */; };
 		CAE027E6196D9A6E004335A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE027E4196D9A6E004335A7 /* Main.storyboard */; };
 		CAE027E8196D9A6E004335A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE027E7196D9A6E004335A7 /* Images.xcassets */; };
-		CAE027F4196D9A6E004335A7 /* deeplinkTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE027F3196D9A6E004335A7 /* deeplinkTesterTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CAE027EE196D9A6E004335A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAE027D3196D9A6E004335A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAE027DA196D9A6E004335A7;
-			remoteInfo = deeplinkTester;
-		};
-		CAE027FD196D9A8F004335A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAE027D3196D9A6E004335A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAE027DA196D9A6E004335A7;
-			remoteInfo = deeplinkTester;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CAE027DB196D9A6E004335A7 /* deeplinkTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deeplinkTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,20 +20,10 @@
 		CAE027E2196D9A6E004335A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAE027E5196D9A6E004335A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAE027E7196D9A6E004335A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CAE027ED196D9A6E004335A7 /* deeplinkTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deeplinkTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAE027F2196D9A6E004335A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAE027F3196D9A6E004335A7 /* deeplinkTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deeplinkTesterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CAE027D8196D9A6E004335A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAE027EA196D9A6E004335A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				CAE027DD196D9A6E004335A7 /* deeplinkTester */,
-				CAE027F0196D9A6E004335A7 /* deeplinkTesterTests */,
 				CAE027DC196D9A6E004335A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				CAE027DB196D9A6E004335A7 /* deeplinkTester.app */,
-				CAE027ED196D9A6E004335A7 /* deeplinkTesterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,23 +69,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CAE027F0196D9A6E004335A7 /* deeplinkTesterTests */ = {
-			isa = PBXGroup;
-			children = (
-				CAE027F3196D9A6E004335A7 /* deeplinkTesterTests.swift */,
-				CAE027F1196D9A6E004335A7 /* Supporting Files */,
-			);
-			path = deeplinkTesterTests;
-			sourceTree = "<group>";
-		};
-		CAE027F1196D9A6E004335A7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CAE027F2196D9A6E004335A7 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,25 +89,6 @@
 			productReference = CAE027DB196D9A6E004335A7 /* deeplinkTester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CAE027EC196D9A6E004335A7 /* deeplinkTesterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CAE027FA196D9A6E004335A7 /* Build configuration list for PBXNativeTarget "deeplinkTesterTests" */;
-			buildPhases = (
-				CAE027E9196D9A6E004335A7 /* Sources */,
-				CAE027EA196D9A6E004335A7 /* Frameworks */,
-				CAE027EB196D9A6E004335A7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAE027EF196D9A6E004335A7 /* PBXTargetDependency */,
-				CAE027FE196D9A8F004335A7 /* PBXTargetDependency */,
-			);
-			name = deeplinkTesterTests;
-			productName = deeplinkTesterTests;
-			productReference = CAE027ED196D9A6E004335A7 /* deeplinkTesterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +107,6 @@
 							};
 						};
 					};
-					CAE027EC196D9A6E004335A7 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = CAE027DA196D9A6E004335A7;
-					};
 				};
 			};
 			buildConfigurationList = CAE027D6196D9A6E004335A7 /* Build configuration list for PBXProject "deeplinkTester" */;
@@ -193,7 +123,6 @@
 			projectRoot = "";
 			targets = (
 				CAE027DA196D9A6E004335A7 /* deeplinkTester */,
-				CAE027EC196D9A6E004335A7 /* deeplinkTesterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +134,6 @@
 			files = (
 				CAE027E6196D9A6E004335A7 /* Main.storyboard in Resources */,
 				CAE027E8196D9A6E004335A7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAE027EB196D9A6E004335A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,28 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAE027E9196D9A6E004335A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAE027F4196D9A6E004335A7 /* deeplinkTesterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CAE027EF196D9A6E004335A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAE027DA196D9A6E004335A7 /* deeplinkTester */;
-			targetProxy = CAE027EE196D9A6E004335A7 /* PBXContainerItemProxy */;
-		};
-		CAE027FE196D9A8F004335A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAE027DA196D9A6E004335A7 /* deeplinkTester */;
-			targetProxy = CAE027FD196D9A8F004335A7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CAE027E4196D9A6E004335A7 /* Main.storyboard */ = {
@@ -296,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,42 +266,6 @@
 			};
 			name = Release;
 		};
-		CAE027FB196D9A6E004335A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/deeplinkTester.app/deeplinkTester";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = deeplinkTesterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		CAE027FC196D9A6E004335A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/deeplinkTester.app/deeplinkTester";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = deeplinkTesterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,15 +283,6 @@
 			buildConfigurations = (
 				CAE027F8196D9A6E004335A7 /* Debug */,
 				CAE027F9196D9A6E004335A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CAE027FA196D9A6E004335A7 /* Build configuration list for PBXNativeTarget "deeplinkTesterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CAE027FB196D9A6E004335A7 /* Debug */,
-				CAE027FC196D9A6E004335A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
